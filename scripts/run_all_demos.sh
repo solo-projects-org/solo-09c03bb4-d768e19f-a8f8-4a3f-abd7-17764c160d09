@@ -13,6 +13,7 @@ export TABLE_DIR="${TABLE_DIR:-$(pwd)/_demo_data/water_level}"
 $PY scripts/demo_readback.py
 $PY scripts/demo_concurrent_append.py
 $PY scripts/demo_concurrent_delete.py
+$PY scripts/demo_archive.py
 
 echo
 echo "All demos completed successfully."

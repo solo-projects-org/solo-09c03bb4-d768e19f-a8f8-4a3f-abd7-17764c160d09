@@ -1,4 +1,0 @@
-{"commitInfo":{"timestamp":1794630989645,"operation":"OPTIMIZE","operationParameters":{"predicate":"[]"},"readVersion":5,"isBlindAppend":false,"engineInfo":"delta-compaction-api/1.0","clientVersion":"delta-compaction-api/1.0","metrics":{"numRemovedFiles":2,"numAddedFiles":1,"numOutputRows":12,"numOutputBytes":1159,"inputBytes":2168}}}
-{"add":{"path":"1794630989640477680-65da72f5f6fc498e8cc1058c8f5161d1.parquet","size":1159,"modificationTime":1794630989645,"dataChange":false,"stats":"{\"numRecords\":12}","tags":{"compaction":"true"}}}
-{"remove":{"path":"1794630978740217452-e2386255fefb4c5e88da8735a37eb4d0.parquet","deletionTimestamp":1794630989645,"dataChange":false,"size":1084}}
-{"remove":{"path":"1794630978749188471-93c9fdb195374ef081c9b4b912a21fec.parquet","deletionTimestamp":1794630989645,"dataChange":false,"size":1084}}
