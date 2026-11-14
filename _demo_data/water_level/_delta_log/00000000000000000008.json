@@ -1,0 +1,2 @@
+{"commitInfo":{"timestamp":1794630989991,"operation":"WRITE","operationParameters":{"mode":"Append"},"readVersion":7,"isBlindAppend":true,"engineInfo":"external-writer/1.0","clientVersion":"external-writer/1.0"}}
+{"add":{"path":"1794630989989661922-f7899a328fd64a9d940ac7e8e6a8002b.parquet","size":1063,"modificationTime":1794630989991,"dataChange":true,"stats":"{\"numRecords\":3}"}}

@@ -1,0 +1,2 @@
+{"commitInfo":{"timestamp":1794630991203,"operation":"DELETE","operationParameters":{"predicate":"[]"},"readVersion":12,"isBlindAppend":false,"engineInfo":"external-writer/1.0","clientVersion":"external-writer/1.0"}}
+{"remove":{"path":"1794630989056708329-c79d66119bc147bcaed635fe31e3c987.parquet","deletionTimestamp":1794630991203,"dataChange":true,"size":1131}}

@@ -1,0 +1,31 @@
+# Two API processes (replicas) sharing one Delta table volume.
+# Either replica can compact; Delta OCC serialises concurrent commits.
+services:
+  api-1:
+    build: .
+    image: delta-compaction-api:latest
+    environment:
+      DATA_ROOT: /data
+      TABLE_NAME: water_level
+    ports:
+      - "8001:8000"
+    volumes:
+      - delta-data:/data
+    restart: unless-stopped
+
+  api-2:
+    image: delta-compaction-api:latest
+    build: .
+    depends_on:
+      - api-1
+    environment:
+      DATA_ROOT: /data
+      TABLE_NAME: water_level
+    ports:
+      - "8002:8000"
+    volumes:
+      - delta-data:/data
+    restart: unless-stopped
+
+volumes:
+  delta-data:
